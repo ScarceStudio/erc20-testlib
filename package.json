@@ -1,0 +1,21 @@
+{
+  "name": "erc20-testlib",
+  "version": "1.0.0",
+  "description": "Example",
+  "scripts": {
+    "test": "truffle test",
+    "test:coverage": "truffle run coverage",
+    "linter": "./node_modules/.bin/solhint -f table ./contracts/**/*.sol -f table ./contracts/*.sol"
+  },
+  "license": "MIT",
+  "author": "Optimism PBC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.7.0",
+    "truffle": "^5.1.67"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
